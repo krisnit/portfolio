@@ -25,3 +25,19 @@ h4 {
 img {
   width: 100%;
 }
+
+//logo
+#logo {
+  height: 70px;
+  width: 70px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+//header
+.App {
+  background: $bg-image;
+  //no-repeat center right / cover;
+  height: 100vh;
+  color: #fff;
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/rklogo.svg";
 
 const Nav = () => {
   return (
     <>
       <nav id="main-nav">
-        <img src="../img/logo.png" alt="logo" id="logo" />
+        <img src={logo} alt="logo" id="logo" />
         <ul>
           <li>
             <Link to="/index">Home</Link>
